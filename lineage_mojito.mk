@@ -11,12 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some LineageOS stuffs
+# Inherit some LineageOS Vendor stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-MISTOS_MAINTAINER=Sachin07
+MISTOS_MAINTAINER="Sachin_07"
 TARGET_ENABLE_BLUR := true
 PRODUCT_NO_CAMERA := false
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
